@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #7b89a3, #243b55);
+}
+
+.card {
+  width: 420px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(184, 59, 59, 0.329);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: rgb(228, 178, 178);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.joke-area {
+  margin: 25px 0;
+  min-height: 100px;
+}
+
+#setup {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#punchline {
+  font-size: 17px;
+  color: #d1d1d1;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #2f6377af;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #c4cbd3;
+}
